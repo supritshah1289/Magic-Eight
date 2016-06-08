@@ -4,5 +4,6 @@ $(document).ready(function(){
     $('img').removeClass();
     setTimeout(function(){
       $('img').addClass('animated bounce')}, 1)
+    // $('img').slideUp(300).delay(800)
   })
 });
